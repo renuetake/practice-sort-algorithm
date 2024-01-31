@@ -14,7 +14,6 @@ public class InsertionSort extends AbstractSort {
         int n = arr.length;
         for (int i = 1; i < n; i++){
             System.out.println("\ti = " + i);
-            // jが0より大きい、かつ、ひとつ前の要素が大きいとき？
             for (int j = i; j > 0 ; j--){
                 System.out.println("\t\tj = " + j);
                 System.out.println("\t\tarr[" + j + "] = " + arr[j]);
