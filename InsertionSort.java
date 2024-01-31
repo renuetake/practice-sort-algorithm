@@ -13,7 +13,7 @@ public class InsertionSort extends AbstractSort {
     protected void sort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++){
-            System.out.println("\ti = " + i);
+            System.out.println("\ti = " + i);//
             for (int j = i; j > 0 ; j--){
                 System.out.println("\t\tj = " + j);
                 System.out.println("\t\tarr[" + j + "] = " + arr[j]);
